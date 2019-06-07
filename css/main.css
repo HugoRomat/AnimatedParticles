@@ -1,0 +1,85 @@
+body{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.gallery{
+    width: 80%;
+    left: 10%;
+}
+.navigation{
+    background-color: rgba(255, 255, 255, 1);
+}
+.navigation li{
+    display: inline-block;
+    float: none;
+}
+.navigation ul{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.navigation a {
+  
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: black;
+}
+.title{
+    font-size: 50px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+.headTitle{
+    font-size: 35px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+.intro-header{
+    /* background: url(../images/teaser/teaser.png); */
+    /* background-size: 100%;
+    background-position-y: -150px;
+    background-repeat: no-repeat; */
+}
+#myVideo {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.centerMiddle{
+    width: 80%;
+}
+.justify{
+    text-align: justify;
+}
+hr{
+    border: 0.5px solid rgb(224, 224, 224);
+}
+h4{
+    line-height: 150%;
+}
+.subheader{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.layout img{
+    width: 100%;
+}
+.titleCard{
+    text-align: center;
+    margin-left: 35px;
+}
+a{
+    color: black;
+}
+.linkData{
+    text-decoration: underline;
+    font-size: 19px;
+}

@@ -1,0 +1,43 @@
+<html><head>
+ <title> Video </title>
+ <link type="text/css" rel="stylesheet" href="../lib/materialize/css/materialize.min.css"  media="screen,projection"/>
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+
+ <style>
+ body{
+      margin:0;
+      font-family: "Roboto", "Myriad Pro";
+    }
+ #legend{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    /* width: 30%; */
+    /* text-align: center; */
+    font-style: italic;
+    font-size: 15px;
+    /* right: 10%; */
+    background-color: rgba(163, 163, 163, 0.5);
+    padding: 15px;
+}
+
+</style>
+</head><body>
+	<div id="legend">
+            Speed encodes tweets over the last month
+            <br/>
+            Height encodes tweets over the last year
+          </div>
+	<!-- <div class="container"> -->
+        <div class="row">
+            <div class="col m10 offset-m1">
+                    <video autoplay muted loop id="myVideo">
+                            <source src="../images/twitter.mp4" type="video/mp4">
+                        </video>
+                  
+            </div>
+	<!-- </div> -->
+
+
+
+</body></html>

@@ -1,0 +1,194 @@
+
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!--Import materialize.css-->
+
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+      <div class="navbar-fixed">
+          <nav class='navigation'>
+            <div class="nav-wrapper">
+
+              <ul class="center hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#experiment">Experiment</a></li>
+                <li><a href="#examples">Examples</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+  <div class="row">
+    <div class="col m8 offset-m2 headTitle center">
+      <h4>Influence of Color and Size of Particles on their Perceived Speed in Node-Link Diagrams</h4>
+    </div>
+    <div class="col m6 offset-m3 justify">
+      Edges in networks often represent transfer relationships between vertices. When visualizing such networks as node-link diagrams, animated particles flowing along the links can effectively convey this notion of transfer. Variables that govern the motion of particles, their speed in particular, may be used to visually represent edge data attributes. Few guidelines exist to inform the design of these particle-based network visualizations, however. Empirical studies so far have only looked at the different motion variables in isolation, independently from other visual variables controlling the appearance of particles, such as their color or size. In this paper, we report on a study of the influence of several visual variables on users' perception of the <i>speed</i> of particles. Our results show that particles' <i>luminance</i>, <i>chromaticity</i> and <i>width</i> do not interfere with their perceived <i>speed</i>. But variations in their <i>length</i> make it more difficult for users to compare the relative <i>speed</i> of particles across edges.
+    </div>
+  </div>
+
+<section id="experiment">
+  <div class="row">
+    <div class="col m11 offset-m1 headTitle">
+      Experiment
+      <hr/>
+    </div>
+  </div>
+
+
+<div class="row">
+    <div class="col m10 offset-m2 ">
+      <div class="subheader">Data from the experiment</div>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="col m10 offset-m2">
+        Data collected in the experiment are available here: <a class="linkData" href="study/data.csv">study data</a>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="col m10 offset-m2 ">
+          <div class="subheader">Participants' task</div>
+      </div>
+    </div>
+  <div class="row">
+      <div class="col offset-m2 m8 layout">
+      <video autoplay muted loop id="myVideo">
+          <source src="images/expe.mp4" type="video/mp4">
+      </video>
+  </div>
+
+
+
+
+  <div class="row">
+    <div class="col m10 offset-m2 ">
+        <div class="subheader">Conditions for the four visual variables</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col m2 offset-m2 layout">
+        <div class='titleCard'> Chromaticity </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="images/video/chromacy.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="col m2 layout">
+        <div class='titleCard'> Length </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="images/video/width.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="col m2 layout">
+        <div class='titleCard'> Width </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="images/video/height.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="col m2 layout">
+        <div class='titleCard'> Luminance </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="images/video/luminance.mp4" type="video/mp4">
+        </video>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col m10 offset-m2 ">
+      <div class="subheader">Graphs used in the experiment</div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="row">
+      <div class="col m2 offset-m2 layout"><img src="images/layout/layout1.png"></div>
+      <div class="col m2 layout"><img src="images/layout/layout2.png"></div>
+      <div class="col m2 layout"><img src="images/layout/layout3.png"></div>
+      <div class="col m2 layout"><img src="images/layout/layout4.png"></div>
+  </div>
+  <!-- <div class="row">
+      <div class="col m3 offset-m1 layout"><img src="images/layout/layout4.png"></div>
+      <div class="col m3 layout"><img src="images/layout/layout5.png"></div>
+      <div class="col m3 layout"><img src="images/layout/layout6.png"></div>
+  </div> -->
+  <div class="row">
+      <div class="col m2 offset-m2 layout"><img src="images/layout/layout5.png"></div>
+      <div class="col m2 layout"><img src="images/layout/layout6.png"></div>
+      <div class="col m2 layout"><img src="images/layout/layout7.png"></div>
+      <div class="col m2 layout"><img src="images/layout/layout8.png"></div>
+  </div>
+</section>
+
+
+
+
+
+
+<section id="examples">
+  <div class="row">
+      <div class="col m10 offset-m1 headTitle">
+        Examples from the paper
+        <hr/>
+      </div>
+  </div>
+  <div class="row gallery">
+    <div class="col m6">
+        <a href="video/twitter.html" target="_blank">
+          <div class="card">
+            <div class="card-image">
+              <!-- <img src="images/flights.png"> -->
+              <video autoplay muted loop id="myVideo" >
+                  <source src="images/twitter.mp4" type="video/mp4">
+              </video>
+              <div style="margin-left: 40px;font-size: 12px;">
+                Particle width encodes the number of tweets mentioning the destination hashtag over the last month. Particle speed encodes the number of such tweets over the last year.
+              </div>
+
+            </div>
+            <div class="card-content">
+              <span class="card-title">Tweets </span>
+              <p></p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col m6">
+        <a href="video/aerial.html" target="_blank">
+          <div class="card">
+            <div class="card-image">
+              <!-- <img src="images/twitter.png"> -->
+              <video autoplay muted loop id="myVideo" style="padding:10px;">
+                  <source src="images/flights.mp4" type="video/mp4">
+              </video>
+              <div style="margin-left: 40px;font-size: 12px;">
+                  Particle chromaticity encodes the main type of payload: passengers in red, mail in blue and freight in yellow. Particle speed encodes the average number of planes on the route that carry the corresponding type of payload.
+                </div>
+            </div>
+            <div class="card-content">
+              <span class="card-title">Air Traffic</span>
+              <p></p>
+            </div>
+          </div>
+          </a>
+        </div>
+  </div>
+</section>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="lib/materialize/js/materialize.min.js"></script>
+  </body>
+</html>
